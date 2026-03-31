@@ -12,3 +12,10 @@ The lock file is present while Terraform is actively running an operation that l
 
 ### Is the lock file always in the bucket after it is created?
 No. The lock file is temporary and is removed when Terraform finishes the operation.
+
+
+## State file only
+![State file only](single-lock.jpg)
+
+## State file and lock file
+![State file and lock file](double-lock.jpg)
